@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(22, 22, 22);
+}
+
+.fixed-back > span {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+
+.fixed-back {
+  background: url("s4.webp") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contact-image-2 {
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 0;
+  margin-top: -60px;
+}
+
+.contact-image-2 > span {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.contact-image-2 > span > span {
+  color: burlywood;
+}
+
+.container {
+  background-color: rgb(22, 22, 22);
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 150px;
+}
+
+.container-1 > img {
+  height: 300px;
+  width: 500px;
+}
+
+.img-2 {
+  display: none;
+}
+
+.container-data {
+  padding: 30px;
+}
+
+.container-data > h1 {
+  color: burlywood;
+}
+
+.container-data > p {
+  color: white;
+  text-align: justify;
+  line-height: 25px;
+}
+
+hr {
+  width: 80vw;
+  height: 0.1px;
+  border: none;
+  background-color: grey;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-1 {
+    flex-direction: column;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+  }
+  .container-1 > img {
+    width: 90vw;
+  }
+  .img-2 {
+    display: block;
+  }
+  .img-3 {
+    display: none;
+  }
+}
